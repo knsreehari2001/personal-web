@@ -360,10 +360,34 @@ top: 2230px;
     .row {
       flex-direction: column;
       align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .row h2 {
       text-align: center;
     }
+    .container {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+    }
+    p {
+      font-family: Poppins;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 36px;
+    
+    color: #05386B;
+    }
+    .landing {
+      margin-top: 5px;
+    }
+    .landing img {
+      position: relative;
+      padding-top: 80px;
+    }
+
 
     .svg-1 {
       width: 254.86px;
@@ -372,20 +396,43 @@ left: -104px;
 top: 411.92px;
     }
     .svg-2 {
+      position: absolute;
+width: 268.1px;
+height: 209.45px;
+left: 300px;
+top: 869.91px;
 
     }
     .svg-3 {
+      position: absolute;
+width: 232.48px;
+height: 199.12px;
+left: -81.84px;
+top: 1142.87px;
 
     }
     .svg-4 {
-
+      position: absolute;
+width: 254.86px;
+height: 245.41px;
+left: 300px;
+top: 2126.53px;
     }
     .svg-5 {
-
+      position: absolute;
+width: 254.86px;
+height: 245.41px;
+left: -90px;
+top: 2875.12px;
     }
     .svg-6 {
-
+      position: absolute;
+width: 268.1px;
+height: 209.45px;
+left: 300px;
+top: 3431.07px;
     }
+
   }
 
 
@@ -398,7 +445,7 @@ top: 411.92px;
     margin-bottom: 20px;
     background: #5cdb95;
     color: #05386b;
-    padding: 20px;
+    padding: 10px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
@@ -430,14 +477,15 @@ top: 411.92px;
   .menu-container input {
     display: block;
     width: 35px;
-    height: 25px;
-    margin: 0;
+    height: 50px;
+    margin: 0px;
     position: absolute;
     cursor: pointer;
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
+
   
   /* Burger menu */
   .menu-container span {
@@ -493,7 +541,11 @@ top: 411.92px;
     .menu-container {
       flex-direction: column;
       align-items: flex-end;
+      background-color: #edf5e1;
+      border-radius: 50px;
+      height: 50px;
     }
+
     
     .menu-logo {
       position: absolute;
